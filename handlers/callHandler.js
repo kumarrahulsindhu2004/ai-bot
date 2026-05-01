@@ -38,7 +38,7 @@ export function handleCall(ws) {
       // greeting
       setTimeout(async () => {
         const greeting = await textToSpeechDeepgram(
-            `Hi, welcome to Vibhum Software! 
+            `Hi, welcome to Vibhum Software services ! 
 I’m your virtual assistant, and I’ll be happy to help you today. 
 How can I assist you?`
         );
